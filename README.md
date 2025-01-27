@@ -50,5 +50,5 @@ GPL-3.0
 
 ---
 
-For questions or feedback, feel free to reach out to [contact email or method].
+For questions or feedback, feel free to reach out.
 
