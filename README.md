@@ -14,8 +14,8 @@ Ensure you have the following installed on your system:
 1. Clone the repository:
 
    ```bash
-   git clone [repository-url]
-   cd [repository-name]
+   git clone https://github.com/webdevsuk/swsimages.git
+   cd swsimages
    ```
 
 2. Install dependencies:
