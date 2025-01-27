@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jq/jquery-ui.css">
+    <script src="jq/jquery.js"></script>
+    <script src="jq/jquery-ui.js"></script>
+</head>
+<body>
+    <h1>Image Viewer</h1>
+    <button id="select-folder-btn">Select Folder</button>
+    <button id="select-file-btn">Select File</button>
+    
+    <div id="image-container"></div>
+
+    <div id="image-modal" class="modal" style="display:none">
+       
+        <!-- <div class="modal-content" id="modal-content"> -->
+          <!-- <span class="close-modal">&times;</span> -->
+          <img id="modal-image" src="" alt="Full Image" class="modal-drag">
+        <!-- </div> -->
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

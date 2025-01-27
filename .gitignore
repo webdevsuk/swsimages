@@ -1,0 +1,30 @@
+# OS and editor-related files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Python
+*.pyc
+__pycache__/
+
+# Build and temporary files
+build/
+dist/
+*.log
+temp/
+
+# Specific configuration file with secrets
+config.ini
+
+# Important log file
+!important.log
+
+#other
+cans/
+.vscode/

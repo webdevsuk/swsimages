@@ -1,0 +1,27 @@
+{
+  "name": "ghui",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main",
+    "build-win": "electron-builder --win nsis portable",
+    "build-portable": "electron-builder --win portable",
+    "build-linux": "electron-builder --x64 --linux deb rpm AppImage 7z flatpak",
+    "build-appimage": "electron-builder --x64 --linux AppImage",
+    "build-mac": "electron-builder --mac 7z dmg pkg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@electron/rebuild": "^3.7.1",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "bs58": "^6.0.0",
+    "jimp": "^1.6.0",
+    "sharp": "^0.33.5"
+  }
+}
